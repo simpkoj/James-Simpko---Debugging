@@ -82,7 +82,7 @@ function setup() {
   guessInput.disabled = false;
 
   hideAllMessages();
-  resetButton.style.display = 'none';
+  resetButton.style.display = 'block';
 }
 
 submitButton.addEventListener('click', checkGuess);
